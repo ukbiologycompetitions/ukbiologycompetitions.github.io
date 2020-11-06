@@ -265,16 +265,62 @@
           <p>
             We are currently in the process of making changes to move the exam to summer 2021. Please sign up on the Google form to be notified when registration opens.
           </p>
-          <br />
-          <form class="signup php-email-form " action="https://forms.gle/VXpnBp9jBeYYCJhy8">
-            <button onclick="location.href='https://forms.gle/VXpnBp9jBeYYCJhy8'" type="submit">Preregister for BBO2021</button>
-         </form>  
+
         </div>
-
-         
-
       </div>
-    </section><!-- End Contact Section -->
+    
+      <div class="row mt-5 justify-content-center">
+    
+    
+        <div class="col-lg-8 mt-5 mt-lg-0">
+          <form action="https://script.google.com/macros/s/AKfycbwRNI3Gw2mJ-izRzpoYU0z_g0TetySFFuWhXAJqMg/exec" method="post" role="form" class="php-email-form">
+            <div class="form-row-4">
+              <div class="col-md form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 characters" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your School Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="col-md form-group">
+              <input type="text" class="form-control" name="school" id="school" placeholder="School Name" data-rule="minlen:5" data-msg="Please enter at least 5 characters" />
+              <div class="validate"></div>
+            </div>
+      <div class="form-group">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" class="custom-control-input" id="customRadio" name="location" value="UK" required>
+        <label class="custom-control-label" for="customRadio">UK School</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" class="custom-control-input" id="customRadio2" name="location" value="Overseas" required>
+        <label class="custom-control-label" for="customRadio2">Overseas School</label>
+       </div> 
+      <div class="validate"></div>
+            </div>
+      <div class="form-group">
+        <span class="ml-2">I consent to my data being stored and used by UKBC for the purposes of BC2021 as set out in the <a href="privacy.html">privacy policy</a></span>
+        <input type="checkbox" name="consent1" value="accept" class="float-left h-auto mt-1" data-rule="checked" data-msg="Please accept our privacy policy">
+        <div class="validate"></div>
+      </div>
+      <div class="form-group">
+        <span class="ml-1">I consent to my data being stored and used by UKBC to remind me about future biology competitions as set out in the <a href="privacy.html">privacy policy</a></span>
+        <input type="checkbox" name="consent2" value="accept" class="float-left h-auto mt-1"  >
+        <div class="validate"></div>
+      </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your registration has been sent. If you don't recieve an e-mail: <a href=#contact>contact us</a>. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Sign Up</button></div>
+          </form>
+        </div>
+    
+      </div>
+    
+        </section><!-- End Contact Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
