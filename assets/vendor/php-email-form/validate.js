@@ -132,6 +132,7 @@
     }).done( function(msg){
       if (msg) {
         this_form.find('.loading').slideUp();
+        this_form.find('.form-group').slideUp();
         this_form.find('.submitbut').slideUp();
         this_form.find('.sent-message').slideDown();
         this_form.find("input:not(input[type=submit]), textarea,input:not(input[type=checkbox]),input:not(input[type=radio])").val('');
