@@ -15,7 +15,7 @@
       
       if($("input[name=password]").val() != ""){
         ferror = true;
-        $(this).find('.error-message').slideDown().html('Error: please refresh, it that does not work: <a href=#contact>contact us</a>.');
+        $(this).find('.error-message').slideDown().html('Error: please refresh, if that does not work: <a href=#contact>contact us</a>. Apologies.');
     }
 
 
