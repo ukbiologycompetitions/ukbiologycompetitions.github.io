@@ -12,6 +12,12 @@
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+      
+      if($("input[name=password]").val() != ""){
+        ferror = true;
+        $(this).find('.error-message').slideDown().html('Error: please refresh, it that does not work: <a href=#contact>contact us</a>.');
+    }
+
 
     f.children('input').each(function() { // run all inputs
      
